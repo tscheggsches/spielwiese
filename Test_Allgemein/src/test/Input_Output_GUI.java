@@ -37,7 +37,7 @@ public class Input_Output_GUI {
 		 */
 		String firstName;
 
-		firstName = JOptionPane.showInputDialog("Bitte Vornamen eingeben","z.B. René");// Dialogboxen
+		firstName = JOptionPane.showInputDialog("Bitte Vornamen eingeben","z.B. RenÃ©");// Dialogboxen
 		if (firstName.isEmpty())
 		{
 			JOptionPane.showMessageDialog(null,"Du hast keinen Namen???","User too stupid",JOptionPane.ERROR_MESSAGE);

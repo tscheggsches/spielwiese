@@ -10,8 +10,8 @@ public class TestMethods { // gleicher Namen wie .java-File!
 	public static void main(String[] args) {
 
 		Input_Output_GUI myIO_GUI = new Input_Output_GUI(); 
-		//myIO_GUI.GUI_Namen();								// JOptionPane In/Out
-		//myIO_GUI.text_Namen(); 						    // Text In-/Out mit Exceptions
+		myIO_GUI.GUI_Namen();								// JOptionPane In/Out
+		myIO_GUI.text_Namen(); 						  		// Text In-/Out mit Exceptions
 
 		Divers myDivers = new Divers();						// HexAusgabe
 		myDivers.Types();
@@ -19,6 +19,6 @@ public class TestMethods { // gleicher Namen wie .java-File!
 		// TODO
 		// Generate JavaDoc
 		
-		System.exit(0); 									// aufr‰umen, beendet VM...
+		System.exit(0); 									// aufr√§umen, beendet VM...
 	}
 }
