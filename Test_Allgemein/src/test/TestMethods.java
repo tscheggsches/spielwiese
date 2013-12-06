@@ -11,9 +11,9 @@ public class TestMethods { // gleicher Namen wie .java-File!
 
 		Input_Output_GUI myIO_GUI = new Input_Output_GUI(); 
 		//myIO_GUI.GUI_Namen();								// JOptionPane In/Out
-		//myIO_GUI.text_Namen(); 								// Text In-/Out mit Exceptions
+		//myIO_GUI.text_Namen(); 						    // Text In-/Out mit Exceptions
 
-		Divers myDivers = new Divers();
+		Divers myDivers = new Divers();						// HexAusgabe
 		myDivers.Types();
 		
 		// TODO
